@@ -40,7 +40,7 @@ header {
   display: flex;
 }
 
-.wavy-section:nth-child(12) {
+.wavy-section:nth-child(11) {
   position: relative;
   bottom: 142.4px;
   background-color: #dceac0;
@@ -114,54 +114,41 @@ nav > div {
 
 .figure1 {
   position: absolute;
-  left: 500px;
-  top: -25px;
-  z-index: -1;
-}
-
-.figure2 {
-  position: absolute;
   right: 25px;
   top: 350px;
   z-index: 1;
 }
 
-.figure3 {
+.figure2 {
   position: absolute;
   left: 50px;
   top: 500px;
   z-index: 1;
 }
 
-.figure4 {
+.figure3 {
   position: absolute;
   right: 25px;
   top: 875px;
 }
 
-.figure5 {
+.figure4 {
   position: absolute;
   left: 236px;
   top: 45%;
 }
 
-.figure6, .figure7 {
+.figure5, .figure6 {
   position: absolute;
   right: 75px;
   top: -53px;
 }
 
-.figure8 {
+.figure7 {
   position: absolute;
   left: 100px;
   top: calc(100% - 53px);
   z-index: 2;
-}
-
-.figure9 {
-  position: absolute;
-  left: -50px;
-  top: 10px;
 }
 
 .green-block {
@@ -562,9 +549,6 @@ nav > div {
     display: none;
   }
   .figure7 {
-    display: none;
-  }
-  .figure8 {
     display: none;
   }
   .special-offer {
